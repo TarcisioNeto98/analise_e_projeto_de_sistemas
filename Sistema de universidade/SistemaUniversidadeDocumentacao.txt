@@ -1,0 +1,16 @@
+Nome: Cadastrar Curso.
+Identificador: CS01.
+Sumário: O gerente cadastra as informações do curso no sistema.
+Ator primário: Gerente.
+Ator secundário: não tem.//Nesse caso não deve ser colocado por que não tem ator secundário.
+Precondição: O gerente deve estar logado no sistema.
+Fluxo:
+1. O gerente solicita ao sistema um formulário de cadastramento de informações de curso.
+2. O sistema retorna o formulário.
+3. O gerente preenche o formulário com as informações desejadas.
+4. O gerente solicita a inserção das informações no sistema.
+5. Se alguma informação obrigatoria não estiver contida no formulário, retornar a etapa 2,
+   com um alerta de falta de informação ou informações.
+6. O sistema salva as informações do curso e o caso de uso termina.
+Fluxo de exceção: não tem.//Nesse caso não precisa.
+Pós-condições: O gerente salvou o curso e suas informações no sistema.
